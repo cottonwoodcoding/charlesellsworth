@@ -1,6 +1,23 @@
 text = "Charles Elssworth gained an appreciation for simple not so distant pash in the White Mountains of Arizona where he was born and raised. Schooled in Salt Lake and transplanted to New York he has spent the better part of the past five years on the road playing music in each of the lower 48 states, sleeping on floors, couches, and in the van, coming home from tour to stay just long enough to set up the next tour. Ellsworth attributes no small part of his work ethic and life style to the words of one of his favorite writers, Roberto Bolaño, 'Make new sensations appear... subvert daily life... give it up again. Hit the road.'\nHis vivid lyrics and near-familiar melodies weave to tell stories of heartbreak and loneliness while shining a light on the perseverance of the human spirit. Charles has subtle way of exploring the idea that even when all seems lost, there is always a sliver of hope. Declan Ryan of Independent Clauses called his and Vincent Draper's split release Salt Lake City: A Love Story, 'a triumph for american songwriting... blending outlaw grit with a raw streak of self-awareness.' His ability to go from a stomp-your-boots anthem reminiscent of Springsteen, to a simple love song in the vein of Townes Van Zandt assures that it won't be long before his name, lyrics, and melodies are stuck in music lovers head's everywhere." 
 
+press_release_text = "Charles Ellsworth, the southwest born and raised Brooklyn transplant escaped the harsh NYC winter to return to his roots in Arizona and make his first full length studio album in five years. He teamed up with producer Bob Hoag (Courtney Marie Andrews, The Format, Gin Blossoms) and the result is 'Cesaréa'. This new record stands on the shoulders of the folk/alt-country/Americana sound that Charles has become known for, while thoroughly exploring different areas of the psychedelic and post punk worlds he has only flirted with in the past. 'Cesaréa' is set to be released on Burro Borracho Records on May 26, 2017.\n
+
+The first single titled '50 Cent Smile' was inspired by John Steinbeck's East of Eden and features the talents of Jon Rauhouse (Neko Case, Calexico, Jakob Dylan) on pedal steel. '50 Cent Smile' is available to stream on Spotify or as a digital download with a preorder of 'Cesaréa.' Pre-Orders for the album are available for Vinyl/CD/Digital formats through the official Charles Ellsworth website (www.charlesellsworthmusic.com) as well as iTunes.\n
+
+Born and raised in the White Mountains of Arizona, Charles is no stranger to the struggles of the working class men and women who populate his songs. Much of his adult life has been spent on the road, always with a guitar in arms reach, talking his way onto bar stages and out of traffic tickets. He's taken to heart the advice of Roberto Bolano, 'Make new sensations appear…subvert daily life…give it all up again,' an author who has heavily influenced Charles's work and who created the character that the album is titled after. His songs wind down a familiar highway, a road more traveled but less explored. His vivid lyrics and near-familiar melodies weave to tell stories of heartbreak and loneliness while shining a light on the perseverance of the human spirit.\n
+
+Please get in touch with Mark Ricks at wanderingmanproductions@gmail.com for guest list, interview requests, promo copies, and other information.\n"
+
 Bio.create(body: text)
+
+PressRelease.create(
+  name: 'Charles Ellsworth', 
+  presents: 'announces new album', 
+  album: 'Cesaréa',
+  sub_header: 'A new full length studio album available April 21, 2017',
+  content: press_release_text,
+  embed_url: 'https://embed.spotify.com/?uri=spotify:track:7HvAze41Wo31tMCddZXfOp'
+)
 
 [
   { description: 'A Packed Suitcase', vid_id: 'J77AZ0FakZM'}, 

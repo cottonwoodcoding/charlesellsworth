@@ -51,6 +51,14 @@ class App extends React.Component {
                 SUBSCRIBERS
               </Link>
             </li>,
+            <li key="pressRelease">
+              <Link 
+                className="grey-text text-darken-2"
+                to="/press_release"
+              >
+                PRESS RELEASE
+              </Link>
+            </li>,
             <li key="logout">
               <a 
                 onClick={() => dispatch(logout(history))}

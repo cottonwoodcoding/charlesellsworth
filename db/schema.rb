@@ -37,6 +37,17 @@ ActiveRecord::Schema.define(version: 20170307232904) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "press_releases", force: :cascade do |t|
+    t.string   "name",       null: false
+    t.string   "presents",   null: false
+    t.string   "album",      null: false
+    t.string   "sub_header", null: false
+    t.text     "content",    null: false
+    t.string   "embed_url",  null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "releases", force: :cascade do |t|
     t.string   "body"
     t.string   "source"

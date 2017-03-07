@@ -32,7 +32,7 @@ class Login extends React.Component{
 
   render() {
     return(
-      <div>
+      <div className='container'>
         <h3 className="center">Login</h3>
         <form className="row" onSubmit={this.handleSubmit}>
           <div className="row">
@@ -40,12 +40,14 @@ class Login extends React.Component{
               ref="email"
               type="email"
               autoFocus={true}
+              placeholder='Email'
               className="col s12 m6 validate"
               required={true}
             />
             <input
               ref="password"
               type="password"
+              placeholder='Password'
               className="validate active col s12 m6"
               required={true}
             />

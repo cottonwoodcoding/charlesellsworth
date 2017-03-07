@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     get '/users/info', to: 'users#info'
     get '/bio', to: 'bios#index'
     put '/bio', to: 'bios#update'
+    get '/press_release', to: 'press_release#show'
+    put '/press_release', to: 'press_release#update'
     resources :sessions
     resources :events, except: [:new, :edit]
     resources :videos, only: [:index, :destroy, :create]
