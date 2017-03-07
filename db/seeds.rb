@@ -22,6 +22,7 @@ PressRelease.create(
 [
   { description: 'A Packed Suitcase', vid_id: 'J77AZ0FakZM'}, 
   { description: 'Folsom Prison', vid_id: 'Py7ZPBIQmgk'}, 
+  { description: 'In My Thoughts', vid_id: '4j8nksAlORY'}, 
   { description: 'Train to Vienna', vid_id: '4l-NQsQg998'}, 
   { description: 'Stuck Out In Texas', vid_id: 'CTCVUmLst7w'}, 
   { description: 'Take A Walk', vid_id: 'XRg7DEGRcBs'}, 
