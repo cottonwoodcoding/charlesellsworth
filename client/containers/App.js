@@ -32,6 +32,14 @@ class App extends React.Component {
             MERCH
           </a>
         </li>
+        <li>
+          <a
+            href="mailto:wanderingmanproductions@gmail.com?Subject=Booking" target="_top"
+            className="grey-text text-darken-2"
+          >
+            BOOK
+          </a>
+        </li>
         {/*<li><Link className="grey-text text-darken-2" to="/">BOOK</Link></li> */}
         { role === 'admin' ?
           [

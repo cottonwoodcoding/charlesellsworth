@@ -2,6 +2,10 @@ import React from 'react';
 import albumLogo from '../images/CesareaMaster.jpg';
 
 class Home extends React.Component {
+  componentDidMount() {
+    $(".dropdown-button").dropdown();
+  }
+
   render() {
     return (
       <div> 
@@ -36,7 +40,17 @@ class Home extends React.Component {
             <div style={styles.lead}>“Fifty Cent Smile”</div>
             <div style={{ marginTop: '50px' }} className="center">
               <button style={{ marginRight: '10px', ...styles.bg }} className="btn-flat black-text">Order Physical</button>
-              <button style={{ marginLeft: '10px', ...styles.bg }} className="btn-flat black-text">Order Digital</button>
+              <a 
+                style={{ cursor: 'pointer', marginLeft: '10px', ...styles.bg }} 
+                className="btn-flat black-text dropdown-button"
+                data-activates="buy_digital"
+               >
+                 Order Digital
+               </a>
+               <ul id="buy_digital" className="dropdown-content">
+                 <li><a href="#!"><i style={{ marginRight: '10px' }} className="fa fa-apple"/>iTunes</a></li>
+                 <li><a href="#!"><i style={{ marginRight: '10px' }} className="fa fa-amazon"/>Amazon</a></li>
+               </ul>
             </div>
           </div>
         </div>

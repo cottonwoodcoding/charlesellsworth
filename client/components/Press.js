@@ -71,7 +71,9 @@ class Press extends React.Component {
           {`"${r.body}"`}
           <br />
           <blockquote className="blue-text text-lighten-1" style={{ borderLeft: '2px solid #42a5f5' }}>
-            {r.source}
+            <a href={r.link} target="_blank">
+              {r.source}
+            </a>
           </blockquote>
           { this.props.user.role === 'admin' ?
             <span>

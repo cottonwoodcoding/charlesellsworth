@@ -66,7 +66,7 @@ class Wildcat extends React.Component {
       <div style={{ marginTop: '100px' }}>
         <div className="row">
           <div className="col s12 m5 center">
-            <img style={{ height: "65vh", width: "90%" }} src={wildcat} />
+            <img style={{ }} src={wildcat} />
           </div>
           <div className="col s12 m6">
             { this.para(this.state.bio) }
