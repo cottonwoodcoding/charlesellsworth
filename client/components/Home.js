@@ -21,25 +21,25 @@ class Home extends React.Component {
         <div className="hide-on-large-only">
           <h1 className="center" style={{ fontWeight: '100' }}>CHARLES ELLSWORTH</h1>
         </div>
-        <div className="row">
-          <div className="col s12 m4 offset-m1">
+        <div className="row container">
+          <div className="col s12 m5">
             <div style={styles.bg} className="card z-depth-3">
               <div className="card-content">
                 <div className="center">
-                  <img style={{ height: '400px', width: '400px' }} src={albumLogo} />
+                  <img className="responsive-img" src={albumLogo} />
                 </div>
               </div>
             </div>
           </div>
-          <div className="col s12 m6 center">
-            <div style={{...styles.title, marginTop: '10px' }}>“Cesarea”</div>
+          <div className="col s12 m6 offset-m1 center">
+            <div style={{...styles.title, marginTop: '10px' }}>“Cesaréa”</div>
             <div style={styles.sub}>the new full length studio album from</div>
             <div style={styles.title}>Charles Ellsworth</div>
             <div style={styles.sub}>Available May 26, 2017</div>
             <div style={styles.lead}>“Fifty Cent Smile”</div>
             <div style={styles.paragraph}><a href="http://charlesellsworth.bandcamp.com/merch" target="_blank">Pre-order now for an immediate download of the first single</a></div>
             <div style={{ marginTop: '40px' }} className="center">
-              {/*<button style={{ marginRight: '10px', ...styles.bg }} className="btn-flat black-text">Order Physical</button>
+              <a href="http://charlesellsworth.bandcamp.com/merch" target="_blank" style={{ marginRight: '10px', ...styles.bg }} className="btn-flat black-text">Order Physical</a>
               <a 
                 style={{ cursor: 'pointer', marginLeft: '10px', ...styles.bg }} 
                 className="btn-flat black-text dropdown-button"
@@ -48,14 +48,9 @@ class Home extends React.Component {
                  Order Digital
                </a>
                <ul id="buy_digital" className="dropdown-content">
-                 <li><a href="#!"><i style={{ marginRight: '10px' }} className="fa fa-apple"/>iTunes</a></li>
-                 <li><a href="#!"><i style={{ marginRight: '10px' }} className="fa fa-amazon"/>Amazon</a></li>
-               </ul>*/}
-               <iframe 
-                style={{ width: '100%', height: '10vh' }}
-                src="https://embed.spotify.com/?uri=spotify%3Atrack%3A3hg91B8v2BwteyuBq7R5bd"
-                frameBorder="0" 
-              ></iframe>
+                 <li><a href="https://itunes.apple.com/us/album/50-cent-smile-single/id1216264573" target="_blank"><i style={{ marginRight: '10px' }} className="fa fa-apple"/>iTunes</a></li>
+                 <li><a href="https://www.amazon.com/50-Cent-Smile-Charles-Ellsworth/dp/B06XPLLZRZ/" target="_blank"><i style={{ marginRight: '10px' }} className="fa fa-amazon"/>Amazon</a></li>
+               </ul>
             </div>
           </div>
         </div>

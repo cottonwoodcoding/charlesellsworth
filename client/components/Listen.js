@@ -128,6 +128,13 @@ class Listen extends React.Component {
     return (
       <div style={{ paddingTop: '1px', height: '100vh', backgroundColor: 'rgb(247,245,240)' }}>
         <h3 className="center">LISTEN</h3>
+        <div className="container">
+          <iframe
+            style={{ width: '100%', height: '10vh' }}
+            src="https://embed.spotify.com/?uri=spotify%3Atrack%3A3hg91B8v2BwteyuBq7R5bd"
+            frameBorder="0"
+          ></iframe>
+        </div>
         { this.props.user.role === 'admin' ? this.albumForm() : null }
         <div className="container">
 				  { this.tabs() }
