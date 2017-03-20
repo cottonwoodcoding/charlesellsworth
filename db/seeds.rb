@@ -16,7 +16,7 @@ PressRelease.create(
   album: 'Cesaréa',
   sub_header: 'A new full length studio album available April 21, 2017',
   content: press_release_text,
-  embed_url: 'https://embed.spotify.com/?uri=spotify:track:7HvAze41Wo31tMCddZXfOp'
+  embed_url: "https://embed.spotify.com/?uri=spotify%3Atrack%3A3hg91B8v2BwteyuBq7R5bd"
 )
 
 [

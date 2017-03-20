@@ -38,8 +38,8 @@ class Home extends React.Component {
             <div style={styles.sub}>Available April 21, 2017</div>
             <div style={styles.paragraph}>Pre-order now for an immediate download of the first single</div>
             <div style={styles.lead}>“Fifty Cent Smile”</div>
-            <div style={{ marginTop: '50px' }} className="center">
-              <button style={{ marginRight: '10px', ...styles.bg }} className="btn-flat black-text">Order Physical</button>
+            <div style={{ marginTop: '40px' }} className="center">
+              {/*<button style={{ marginRight: '10px', ...styles.bg }} className="btn-flat black-text">Order Physical</button>
               <a 
                 style={{ cursor: 'pointer', marginLeft: '10px', ...styles.bg }} 
                 className="btn-flat black-text dropdown-button"
@@ -50,7 +50,12 @@ class Home extends React.Component {
                <ul id="buy_digital" className="dropdown-content">
                  <li><a href="#!"><i style={{ marginRight: '10px' }} className="fa fa-apple"/>iTunes</a></li>
                  <li><a href="#!"><i style={{ marginRight: '10px' }} className="fa fa-amazon"/>Amazon</a></li>
-               </ul>
+               </ul>*/}
+               <iframe 
+                style={{ width: '100%', height: '10vh' }}
+                src="https://embed.spotify.com/?uri=spotify%3Atrack%3A3hg91B8v2BwteyuBq7R5bd"
+                frameBorder="0" 
+              ></iframe>
             </div>
           </div>
         </div>
