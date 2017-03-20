@@ -25,7 +25,7 @@ class App extends React.Component {
         <li><Link className="grey-text text-darken-2" to="/press">PRESS</Link></li>
         <li>
           <a 
-            href="https://squareup.com/market/charles-ellsworth"
+            href="https://charlesellsworth.bandcamp.com/"
             target="_blank"
             className="grey-text text-darken-2"
           >

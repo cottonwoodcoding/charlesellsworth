@@ -21,6 +21,7 @@
   "dependencies": {
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
