@@ -43,7 +43,3 @@ PressRelease.create(
   { body: "The relatable simplicity of this album makes for an emotional journey. I laid on my couch listening and weeping, and when it was over, I had a fuller understanding of not only myself but of humanity as a whole.", source: "LeAundra Jeffs - SLUG Magazine", link: "http://www.slugmag.com/local-music-reviews/charles-ellsworth-wildcat-chuck-charles" },
   { body: "It speaks to memories of days you thought would last forever, and the way you can still feel the joy they brought rattling in your soul. It does all this and more against top notch production led by a simple series of chords.", source: "James Shotwell - Under The Gun", link: "http://www.underthegunreview.net/2015/10/07/charles-ellsworth-a-packed-suitcase/" }
 ].reverse.each { |r| Release.create(body: r[:body], source: r[:source], link: r[:link]) }
-
-User.create(email: 'djungst@gmail.com', password: 'password', role: 'admin')
-User.create(email: 'cellsworth54@gmail.com', password: 'password', role: 'admin')
-User.create(email: 'jakesorce@gmail.com', password: 'password', role: 'admin')
