@@ -10,12 +10,12 @@ class Home extends React.Component {
     return (
       <div> 
         <div style={styles.bg} className="hide-on-med-and-down">
-          <div className="row">
-            <span style={styles.font} className="col s4 center">CHARLES</span>
-            <div className="col s2">
-              <img style={{ marginTop: '30px', height: '200px', width: '200px' }} src={albumLogo} />
+          <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', marginBottom: '50px' }}>
+            <span style={styles.font}>CHARLES</span>
+            <div>
+              <img style={{ height: '250px' }} src={albumLogo} />
             </div>
-            <span style={styles.font}className="col s5">ELLSWORTH</span>
+            <span style={styles.font}>ELLSWORTH</span>
           </div>
         </div>
         <div className="hide-on-large-only">
@@ -35,9 +35,9 @@ class Home extends React.Component {
             <div style={{...styles.title, marginTop: '10px' }}>“Cesarea”</div>
             <div style={styles.sub}>the new full length studio album from</div>
             <div style={styles.title}>Charles Ellsworth</div>
-            <div style={styles.sub}>Available April 21, 2017</div>
-            <div style={styles.paragraph}>Pre-order now for an immediate download of the first single</div>
+            <div style={styles.sub}>Available May 26, 2017</div>
             <div style={styles.lead}>“Fifty Cent Smile”</div>
+            <div style={styles.paragraph}><a href="http://charlesellsworth.bandcamp.com/merch" target="_blank">Pre-order now for an immediate download of the first single</a></div>
             <div style={{ marginTop: '40px' }} className="center">
               {/*<button style={{ marginRight: '10px', ...styles.bg }} className="btn-flat black-text">Order Physical</button>
               <a 
@@ -69,7 +69,6 @@ const styles = {
     fontSize: '7em',
     fontWeight: '100',
     letterSpacing: '3px',
-    marginTop: '50px',
   },
   title: {
     fontWeight: '400',
@@ -86,11 +85,12 @@ const styles = {
   paragraph: {
     fontWeight: '200',
     fontSize: '20px',
-    marginTop: '30px',
+    marginTop: '20px',
   },
   lead: {
     fontWeight: '400',
     fontSize: '1.8rem',
+    marginTop: '10px',
   },
   bg: {
     backgroundColor: 'rgb(247,245,240)'
