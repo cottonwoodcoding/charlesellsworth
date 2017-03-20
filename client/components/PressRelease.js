@@ -82,7 +82,7 @@ class PressRelease extends React.Component {
         <div className="row" style={{ marginTop: '30px' }}>
           <div className="col s12 m4 offset-m1">
             <iframe 
-              style={{ width: '100%', height: '80px', marginBottom: '30px' }}
+              style={{ width: '100%', height: '450', marginBottom: '30px' }}
               src={embed_url}
               frameBorder="0"
             ></iframe>
