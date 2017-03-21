@@ -36,8 +36,8 @@ class Home extends React.Component {
             <div style={styles.sub}>the new full length studio album from</div>
             <div style={styles.title}>Charles Ellsworth</div>
             <div style={styles.sub}>Available May 26, 2017</div>
+            <div style={styles.paragraph}>Pre-order now for an immediate download of the first single</div>
             <div style={styles.lead}>“Fifty Cent Smile”</div>
-            <div style={styles.paragraph}><a href="http://charlesellsworth.bandcamp.com/merch" target="_blank">Pre-order now for an immediate download of the first single</a></div>
             <div style={{ marginTop: '40px' }} className="center">
               <a href="http://charlesellsworth.bandcamp.com/merch" target="_blank" style={{ marginRight: '10px', ...styles.bg }} className="btn-flat black-text">Order Physical</a>
               <a 
