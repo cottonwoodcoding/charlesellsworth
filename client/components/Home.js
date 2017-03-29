@@ -48,8 +48,8 @@ class Home extends React.Component {
                  Order Digital
                </a>
                <ul id="buy_digital" className="dropdown-content">
-                 <li><a href="https://itunes.apple.com/us/album/50-cent-smile-single/id1216264573" target="_blank"><i style={{ marginRight: '10px' }} className="fa fa-apple"/>iTunes</a></li>
-                 <li><a href="https://www.amazon.com/50-Cent-Smile-Charles-Ellsworth/dp/B06XPLLZRZ/" target="_blank"><i style={{ marginRight: '10px' }} className="fa fa-amazon"/>Amazon</a></li>
+                 <li><a href="https://itunes.apple.com/us/album/cesar%C3%A9a/id1217182956" target="_blank"><i style={{ marginRight: '10px' }} className="fa fa-apple"/>iTunes</a></li>
+                 <li><a href="https://www.amazon.com/Cesar%C3%A9a-Explicit-Charles-Ellsworth/dp/B06XR5FW9Y/ref=sr_1_1?ie=UTF8&qid=1490720259&sr=8-1&keywords=Cesar%C3%A9a" target="_blank"><i style={{ marginRight: '10px' }} className="fa fa-amazon"/>Amazon</a></li>
                </ul>
             </div>
           </div>
